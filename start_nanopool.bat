@@ -1,0 +1,6 @@
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+eminer.exe -S eth-eu1.nanopool.org:9999,eth-eu2.nanopool.org:9999  -U 0xcb5b04401686809703eA7E8Af0ee60907FF3A1aa.rig0 -P x -N rig0 --cloud-key 8da21f8e8671e8e462b03821be4a8fd9248c1d91
